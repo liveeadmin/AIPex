@@ -3,7 +3,7 @@
 # Generic file-size linter for common source-code files.
 # - Scans repo for common code extensions
 # - Compares each file's size against per-extension thresholds
-# - Reports violations; with --fix, moves offenders into ai/memory/refactoring/
+# - Reports violations; with --fix, moves offenders into _ai/memory/refactoring/
 #
 # Usage:
 #   ./check-code-file-sizes.sh [--fix] [--root PATH] [--verbose]
@@ -173,7 +173,7 @@ for f in "${FILES[@]}"; do
     REPORT+=( "$(printf "%-8s %8s KiB > %-6s KiB  %s" ".$ext" "$kib" "$limit_kib" "$f")" )
 
     if [[ $FIX -eq 1 ]]; then
-      dest_dir="ai/memory/refactoring/${ext}"
+      dest_dir="_ai/memory/refactoring/${ext}"
       mkdir -p "$dest_dir"
       # preserve relative path structure under new root
       rel="${f#./}"
@@ -188,10 +188,10 @@ if (( violations > 0 )); then
   printf "%s\n" "${REPORT[@]}"
   if [[ $FIX -eq 1 ]]; then
     echo
-    echo "Offending files were moved to ai/memory/refactoring/ by extension."
+    echo "Offending files were moved to _ai/memory/refactoring/ by extension."
   else
     echo
-    echo "Run again with --fix to move offending files under ai/memory/refactoring/."
+    echo "Run again with --fix to move offending files under _ai/memory/refactoring/."
   fi
   exit 1
 else

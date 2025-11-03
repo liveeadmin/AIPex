@@ -8,7 +8,7 @@
 1. Run repo size check (per-extension thresholds).
 2. For each violation, create a split plan and extract responsibilities into new files (same package).
 3. Re-run build/tests; iterate until all files < 600 lines.
-4. Document summary in ai/memory/progress.md; link details in ai/memory/archive/.
+4. Document summary in _ai/memory/progress.md; link details in _ai/memory/archive/.
 5. Prefer destination dir memory/refactoring/<ext>/ for temporary staging if moving files during refactor.
 
 ---

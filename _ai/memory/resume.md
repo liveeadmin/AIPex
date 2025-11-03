@@ -6,7 +6,7 @@ Use exactly one open entry. Update it in place.
 Intent: <why>
 Scope: <files/dirs>
 Plan: <next 1–3 micro-steps>
-Context: ai/memory/archive/<related-task-or-op>.md
+Context: _ai/memory/archive/<related-task-or-op>.md
 
 [YYYY-MM-DD HH:MM] OP-ABCDE DONE
 Outcome: <result>

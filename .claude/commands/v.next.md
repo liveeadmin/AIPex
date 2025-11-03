@@ -5,7 +5,7 @@
 ---
 
 ## Steps
-1. Read in order: ai/memory/progress.md, ai/memory/plan.md.
+1. Read in order: _ai/memory/progress.md, _ai/memory/plan.md.
 2. Determine:
    - Current phase
    - First unchecked task in order (or the one marked in-progress)

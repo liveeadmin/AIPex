@@ -6,7 +6,7 @@
 
 ## Steps
 1. Detect sections older than 30–60 days or >500 lines total.
-2. Move verbose content into ai/memory/archive/<ID-or-date>.md.
+2. Move verbose content into _ai/memory/archive/<ID-or-date>.md.
 3. Leave a one-line pointer in the live file.
 4. Update progress.md 'Pointers' section.
 

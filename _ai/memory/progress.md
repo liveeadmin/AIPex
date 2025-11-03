@@ -9,12 +9,12 @@ Phase: PH-01
 - Next: <task-id> — <one line>
 
 ## Recent Decisions (30 days)
-- [YYYY-MM-DD] <short decision title> — Why: <1 line>. Impact: <files>. Details: ai/memory/archive/D-YYYYMMDD-<slug>.md
+- [YYYY-MM-DD] <short decision title> — Why: <1 line>. Impact: <files>. Details: _ai/memory/archive/D-YYYYMMDD-<slug>.md
 
 ## Blockers
 - <task-id> — <1 line blocker + pointer>
 
 ## Pointers
-- Plan: ai/memory/plan.md
-- Active operation: ai/memory/resume.md
-- Archives: ai/memory/archive/
+- Plan: _ai/memory/plan.md
+- Active operation: _ai/memory/resume.md
+- Archives: _ai/memory/archive/

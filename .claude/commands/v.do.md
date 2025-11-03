@@ -6,7 +6,7 @@
 
 ## Steps
 1. Identify the next step via v.next; display acceptance criteria.
-2. Update ai/memory/resume.md with intent, scope, and 1–3 micro-steps.
+2. Update _ai/memory/resume.md with intent, scope, and 1–3 micro-steps.
 3. Implement changes; keep commits small and scoped.
 4. Run fast tests/lint; verify acceptance.
 5. On success: tick step/task in plan.md, update progress.md (state/next/decision if any), clear resume.md.

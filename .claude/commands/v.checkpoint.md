@@ -7,12 +7,13 @@
 3. Run v.testsync (tests compile with current APIs).
 4. Build + run unit tests; categorize failures (test vs behavioral).
 5. Run v.memorize (update progress/changelog and rotate archives if needed).
-6. Commit: checkpoint: Phase <X> complete – <short summary>.
+6. If ai/memory/archive/index.md exists, refresh it from current archive files.
+7. Commit: checkpoint: Phase <X> complete – <short summary>.
 
 ## Result
 - All files respect size policy.
 - Tests compile; build passes.
-- Memory synced; milestone committed.
+- Memory synced; archive index refreshed; milestone committed.
 
 ## Notes
 - If legacy or divergent memory detected, run v.initmemory before committing.
